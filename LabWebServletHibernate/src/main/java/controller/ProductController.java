@@ -24,6 +24,7 @@ public class ProductController {
 	@Autowired
 	private ProductService productService;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 	@InitBinder
 	public void registerPropertyEditor(WebDataBinder webDataBinder) {
@@ -33,6 +34,11 @@ public class ProductController {
 	public void registerPropertyEditor(WebDataBinder webDataBinder) {
 		//貓咪Ａ詛咒
 		//aabbcc
+>>>>>>> branch 'master' of https://github.com/EEIT10203/RemoteRepository0823
+=======
+	
+	@InitBinder
+	public void registerPropertyEditor(WebDataBinder webDataBinder) {
 >>>>>>> branch 'master' of https://github.com/EEIT10203/RemoteRepository0823
 		webDataBinder.registerCustomEditor(java.util.Date.class,
 				new CustomDateEditor(new SimpleDateFormat("yyyy-MM-dd"), true));

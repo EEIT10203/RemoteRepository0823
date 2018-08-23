@@ -2,6 +2,11 @@
     <wb-module deploy-name="LabWebServletHibernate-1.0">
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+<<<<<<< HEAD
+=======
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+>>>>>>> branch 'master' of https://github.com/EEIT10203/RemoteRepository0823
         <property name="context-root" value="LabWebServletHibernate"/>
         <property name="java-output-path" value="/LabWebServletHibernate/target/classes"/>
     </wb-module>
