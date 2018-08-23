@@ -23,9 +23,11 @@ import model.ProductService;
 public class ProductController {
 	@Autowired
 	private ProductService productService;
+
 	
 	@InitBinder
 	public void registerPropertyEditor(WebDataBinder webDataBinder) {
+
 		webDataBinder.registerCustomEditor(java.util.Date.class,
 				new CustomDateEditor(new SimpleDateFormat("yyyy-MM-dd"), true));
 		
