@@ -13,6 +13,5 @@ public class ContextLoaderListenerRegistry extends AbstractContextLoaderInitiali
 		return context;
 		//測試測試
 		//1234
-		////122222
 	}
 }
