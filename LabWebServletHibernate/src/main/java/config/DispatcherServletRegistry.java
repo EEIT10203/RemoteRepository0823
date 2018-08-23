@@ -8,7 +8,7 @@ public class DispatcherServletRegistry
 	protected Class<?>[] getRootConfigClasses() {
 		return null;
 	}
-	//6969
+	//6969ddddd
 	@Override
 	protected Class<?>[] getServletConfigClasses() {
 		return new Class[] {SpringMvcJavaConfiguration.class};
