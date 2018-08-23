@@ -12,6 +12,7 @@ public class PrimitiveNumberEditor extends CustomNumberEditor {
 			setAsText("0");
 		} else {
 			super.setAsText(text);
+			//test
 		}
 	}
 	private final boolean ALLOW_EMPTY;

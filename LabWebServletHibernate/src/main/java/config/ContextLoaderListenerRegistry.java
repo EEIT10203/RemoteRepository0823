@@ -12,6 +12,8 @@ public class ContextLoaderListenerRegistry extends AbstractContextLoaderInitiali
 		context.register(SpringJavaConfiguration.class);
 
 		return context;
+		//測試測試樂楨
+	
+
 	}
 }
-
