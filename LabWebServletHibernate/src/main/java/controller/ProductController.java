@@ -26,6 +26,7 @@ public class ProductController {
 	//commit測試
 	@InitBinder
 	public void registerPropertyEditor(WebDataBinder webDataBinder) {
+		//貓咪Ａ詛咒
 		webDataBinder.registerCustomEditor(java.util.Date.class,
 				new CustomDateEditor(new SimpleDateFormat("yyyy-MM-dd"), true));
 		
