@@ -6,7 +6,7 @@ import org.springframework.beans.propertyeditors.CustomNumberEditor;
 
 public class PrimitiveNumberEditor extends CustomNumberEditor {
 	@Override
-	//kkk
+
 	public void setAsText(String text) throws IllegalArgumentException {
 		if((text==null || text.length()==0) && ALLOW_EMPTY) {
 			setAsText("0");
