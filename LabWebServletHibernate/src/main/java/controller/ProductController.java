@@ -23,7 +23,7 @@ import model.ProductService;
 public class ProductController {
 	@Autowired
 	private ProductService productService;
-	
+	//commit測試
 	@InitBinder
 	public void registerPropertyEditor(WebDataBinder webDataBinder) {
 		webDataBinder.registerCustomEditor(java.util.Date.class,
