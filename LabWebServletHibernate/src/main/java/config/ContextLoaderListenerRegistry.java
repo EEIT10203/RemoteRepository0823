@@ -12,7 +12,7 @@ public class ContextLoaderListenerRegistry extends AbstractContextLoaderInitiali
 		context.register(SpringJavaConfiguration.class);
 		return context;
 		//測試測試
-		//1234
-		//2222
+	}
+		return context;
 	}
 }
