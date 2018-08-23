@@ -27,6 +27,7 @@ public class ProductController {
 	@InitBinder
 	public void registerPropertyEditor(WebDataBinder webDataBinder) {
 		//貓咪Ａ詛咒
+		//aabbcc
 		webDataBinder.registerCustomEditor(java.util.Date.class,
 				new CustomDateEditor(new SimpleDateFormat("yyyy-MM-dd"), true));
 		
