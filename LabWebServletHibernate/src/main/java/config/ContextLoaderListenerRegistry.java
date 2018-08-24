@@ -13,9 +13,4 @@ public class ContextLoaderListenerRegistry extends AbstractContextLoaderInitiali
 		return context;
 	}
 }
-//commit
-	
-
-	}
-}
-
+//commit2
