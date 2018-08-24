@@ -6,14 +6,20 @@ import org.springframework.beans.propertyeditors.CustomNumberEditor;
 
 public class PrimitiveNumberEditor extends CustomNumberEditor {
 	@Override
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 全部commit一次
 	public void setAsText(String text) throws IllegalArgumentException {
 		if((text==null || text.length()==0) && ALLOW_EMPTY) {
 			setAsText("0");
 		} else {
 			super.setAsText(text);
+<<<<<<< HEAD
 
+=======
+>>>>>>> 全部commit一次
 		}
 	}
 	private final boolean ALLOW_EMPTY;

@@ -8,8 +8,6 @@ public class DispatcherServletRegistry
 	protected Class<?>[] getRootConfigClasses() {
 		return null;
 	}
-
-
 	@Override
 	protected Class<?>[] getServletConfigClasses() {
 		return new Class[] {SpringMvcJavaConfiguration.class};
@@ -17,5 +15,7 @@ public class DispatcherServletRegistry
 	@Override
 	protected String[] getServletMappings() {
 		return new String[] {"/"};
+	}
+}
 	}
 }

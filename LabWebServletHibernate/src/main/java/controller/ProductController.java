@@ -43,8 +43,8 @@ public class ProductController {
 	public String method(Model model, String prodaction, ProductBean bean,
 			BindingResult bindingResult, @RequestParam("id") String temp1) {
 		System.out.println("bindingResult="+bindingResult);
-//接收資料	
-//轉換資料	
+//�收資�	
+//轉�資�	
 		Map<String, String> errors = new HashMap<>();
 		model.addAttribute("errors", errors);
 		
@@ -63,7 +63,7 @@ public class ProductController {
 			}
 		}
 		
-//驗證資料
+//驗�資�
 		if("Insert".equals(prodaction) || "Update".equals(prodaction) || "Delete".equals(prodaction)) {
 			if (temp1 == null || temp1.length() == 0) {
 				errors.put("id", "please enter id for " + prodaction+" (FormBean)");
@@ -74,7 +74,7 @@ public class ProductController {
 			return "product.error";
 		}
 		
-//根據Model執行結果呼叫View
+//��Model��結�叫View
 		if("Select".equals(prodaction)) {
 			List<ProductBean> result = productService.select(bean);
 			model.addAttribute("select", result);
