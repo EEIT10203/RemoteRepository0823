@@ -23,7 +23,6 @@ import model.ProductService;
 public class ProductController {
 	@Autowired
 	private ProductService productService;
-
 	
 	@InitBinder
 	public void registerPropertyEditor(WebDataBinder webDataBinder) {

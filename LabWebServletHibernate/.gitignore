@@ -1,2 +1,7 @@
 /.settings/
-/.project
+/.project/
+/.target/
+/.class/
+/.classpath/
+/.springBeans/
+
